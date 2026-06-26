@@ -42,6 +42,7 @@
     X(Reactive_Energy,KVARH)  \
     X(Apparent_Energy,KVAH)   \
     X(Power,KW)               \
+    X(Reactive_Power,KVAR)    \
     \
     X(Volume,M3)              \
     X(Flow,M3H)               \
@@ -89,6 +90,8 @@ enum class Quantity
     \
     X(KW,kw,"kW",Power,"kilo Watt")                                     \
     X(M3CH,m3ch,"m³°C/h",Power,"cubic meter celsius per hour")          \
+    X(KVAR,kvar,"kVAR",Reactive_Power,"kilo volt amperes reactive")     \
+    X(VAR,var,"VAR",Reactive_Power,"volt amperes reactive")             \
     \
     X(M3,m3,"m³",Volume,"cubic meter")                                  \
     X(L,l,"l",Volume,"litre")                                           \

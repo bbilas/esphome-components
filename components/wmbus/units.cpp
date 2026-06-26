@@ -92,6 +92,8 @@ using namespace std;
     \
     X(KW,     1000.0,     SIExp().kg(1).m(2).s(-3))                 \
     X(M3CH,   3600.0,    SIExp().m(3).c(1).s(-1))                  \
+    X(KVAR,   1000.0,     SIExp().kg(1).m(2).s(-3))                 \
+    X(VAR,    1.0,        SIExp().kg(1).m(2).s(-3))                 \
     \
     X(M3,     1.0,        SIExp().m(3))                             \
     X(L,      1.0/1000.0, SIExp().m(3))                             \
